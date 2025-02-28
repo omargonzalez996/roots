@@ -21,15 +21,15 @@ const Hero = () => {
         {/* Columna del Slogan */}
         <div className="text-white text-center md:text-left md:w-1/2 py-10 px-20 space-y-5">
           <div className="flex items-center w-full">
-            <span className="text-lg font-semibold">Texas Best Roofers</span>
+            <hr className="flex-1 md:hidden ml-4 border-gray-400" />
+            <span className="text-lg text-center font-semibold">Texas Best Roofers</span>
             <hr className="flex-1 ml-4 border-gray-400" />
           </div>
-          <h1 className="text-8xl md:text-6xl">SOUTHERN ROOTS</h1>
+          <h1 className="text-3xl lg:text-8xl md:text-6xl">SOUTHERN ROOTS</h1>
           <p>
-            Roofing replacement mastered—our Texas roofing company team
-            delivers the best craftsmanship for your home. Experience swift,
-            detailed service with a personal touch from our dedicated
-            professionals.
+            Roofing replacement mastered—our Texas roofing company team delivers
+            the best craftsmanship for your home. Experience swift, detailed
+            service with a personal touch from our dedicated professionals.
           </p>
         </div>
 
